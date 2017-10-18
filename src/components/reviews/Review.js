@@ -9,7 +9,7 @@ class Review extends Component {
       restaurantId: this.props.restaurantId
     });
   }
-  
+
   render() {
     return (
       <li>
