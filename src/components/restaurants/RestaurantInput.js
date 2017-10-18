@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 
 class RestaurantInput extends Component {
-  contructor(props){
+  constructor(props){
     super(props);
-    
+
     this.state ={
       text: '',
     };
