@@ -13,7 +13,7 @@ class Review extends Component {
     return (
       <li>
         {this.props.review.text}
-         <button onClick={() => this.handleOnClick()}}/>
+         <button onClick={() => this.handleOnClick()}/>
       </li>
     );
   }
