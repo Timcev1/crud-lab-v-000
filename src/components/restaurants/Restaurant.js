@@ -3,7 +3,6 @@ import ReviewInput from '../reviews/ReviewInput';
 
 
 class Restaurant extends Component {
-
   handleOnClick = () => {
     this.props.store.dispatch({
       type: 'DELETE_RESTAURANT',
