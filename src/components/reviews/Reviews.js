@@ -7,7 +7,7 @@ class Reviews extends Component {
     const reviews = filter.map((review,index)=>{
       return <Review review={review} text={review.text} key={index} id={review.id} store={this.props.store} restaurantId={this.props.restaurantId}/>
     });
-    
+
     return (
       <ul>
         {reviews}
