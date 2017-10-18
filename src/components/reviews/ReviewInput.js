@@ -20,7 +20,7 @@ class ReviewInput extends Component {
       review: {
         restaurantId: this.props.restaurantId,
         text: this.state.text,
-      },
+      }
     });
     this.setState({
       text: '',
